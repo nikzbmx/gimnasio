@@ -59,7 +59,8 @@ JOptionPane.showMessageDialog(null, "Ha salido del programa");
     
     }
 
-
+//  crea arraylist de programacion de sesiones
+    
    private void consultaProgramacion() {
         ArrayList<Administracion> programacion = new ArrayList<Administracion>();
          programacion.add(new Administracion("lunes", 7,"Juan","Lumbar"));
